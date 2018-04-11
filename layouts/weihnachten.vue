@@ -1,11 +1,11 @@
 <template>
-	<section id="kliemannsland">
+	<section id="weihnachten">
 		<nuxt/>
 
-    <img src="~/assets/img/kliemannsland/Kliemannsland_Illus_Fynn_default.png" id="fynn">
+    <img src="~/assets/img/kliemannsland/Kliemannsland_Illus_Weihnachten_Fynn.png" id="fynn">
 		<img src="~/assets/img/kliemannsland/Kliemannsland_logo-schwarz.png" alt="Logo Kliemannsland" id="kliemannsland-logo" class="absolute">
-    <img src="~/assets/img/kliemannsland/Kliemannsland_Illus_Karte.png" alt="Karte Kliemannsland" id="kliemannsland-karte">
-    <img src="~/assets/img/kliemannsland/Kliemannsland_Illus_Huhn_1.png" alt="Huhn Kliemannsland" id="kliemannsland-huhn">
+    <img src="~/assets/img/kliemannsland/Kliemannsland_Illus_Weihnachten_Kugel.png" id="kugel">
+    <img src="~/assets/img/kliemannsland/Kliemannsland_Illus_Raketen.png" id="raketen">
 	</section>
 </template>
 
@@ -14,7 +14,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
-#kliemannsland {
+#weihnachten {
 	width: 100vw;
 	height: 100vh;
 
@@ -39,6 +39,22 @@
   height: 5cm;
   width: auto;
   top: 1cm;
+  left: 2.5cm;
+}
+
+#kugel {
+  position: absolute;
+  height: 5cm;
+  width: auto;
+  bottom: 1cm;
+  right: 2.5cm;
+}
+
+#raketen {
+  position: absolute;
+  height: 5cm;
+  width: auto;
+  bottom: 1cm;
   left: 2.5cm;
 }
 
